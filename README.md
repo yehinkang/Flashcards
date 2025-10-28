@@ -19,15 +19,12 @@ Still in Terminal, run:
 brew install python
 ```
 
-## 3. Install git (if you don't have it)
-
-```bash
-brew install git
-```
 
 
 
-## 4. Download the Project from GitHub (No Command Line Needed)
+
+
+## 3. Download the Project from GitHub (No Command Line Needed)
 
 1. Go to the project’s GitHub page in your web browser (you should have been given a link, for example: https://github.com/yehinkang/Flashcards).
 
@@ -39,7 +36,10 @@ brew install git
 
 5. Open the folder. You should see files like `flashcards.py`, `requirements.txt`, and `README.md` inside.
 
-**Tip:** To get the full path to this folder for use in Terminal, hold the Option key and right-click the folder in Finder, then choose "Copy (folder) as Pathname". You can then paste that path after `cd` in Terminal.
+
+**Tip:**
+- To get the full path to this folder for use in Terminal, hold the Option key and right-click the folder in Finder, then choose "Copy (folder) as Pathname". You can then paste that path after `cd` in Terminal.
+- If you use Visual Studio Code (VS Code), you can open the project folder by going to **File > Open Folder...**. Once the folder is open in VS Code, you can open a new Terminal window directly in that location by selecting **Terminal > New Terminal** from the menu. This will save you from having to navigate with the `cd` command manually.
 
 ## 5. Create a Virtual Environment
 
