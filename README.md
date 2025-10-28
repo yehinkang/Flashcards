@@ -26,26 +26,20 @@ brew install git
 ```
 
 
-## 4. Download the Project with git
 
-First, you need to be "inside" the folder where you want to put this project. In Terminal, you use the `cd` command to "change directory" (move into a folder). For example:
+## 4. Download the Project from GitHub (No Command Line Needed)
 
-```bash
-cd ~/Documents
-```
+1. Go to the project’s GitHub page in your web browser (you should have been given a link, for example: https://github.com/yehinkang/Flashcards).
 
-This command moves you into your Documents folder. You can replace `~/Documents` with any folder you like.
+2. Click the green **Code** button, then choose **Download ZIP**.
 
-**Tip:** On a Mac, you can copy the full path to any folder by holding the Option key and right-clicking the folder in Finder, then choosing "Copy (folder) as Pathname". You can then paste that path after `cd` in Terminal.
+3. Once the ZIP file downloads, double-click it in your Downloads folder to unzip it. This will create a folder named something like `Flashcards-main` or `Flashcards-master`.
 
-Once you're in the folder you want, run:
+4. Move this folder to a location you can find easily, such as your Documents folder.
 
-```bash
-git clone <project-url>
-cd Flashcards
-```
+5. Open the folder. You should see files like `flashcards.py`, `requirements.txt`, and `README.md` inside.
 
-Replace `<project-url>` with the link you were given (for example, from GitHub). The `cd Flashcards` command moves you into the new project folder you just downloaded.
+**Tip:** To get the full path to this folder for use in Terminal, hold the Option key and right-click the folder in Finder, then choose "Copy (folder) as Pathname". You can then paste that path after `cd` in Terminal.
 
 ## 5. Create a Virtual Environment
 
